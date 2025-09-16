@@ -54,7 +54,7 @@ The server will start on `http://localhost:3000`
 ## Running Tests
 
 ```bash
-npm test
+npx jest
 ```
 
 This runs all 17 tests including unit tests for DND logic and integration tests for API endpoints.
