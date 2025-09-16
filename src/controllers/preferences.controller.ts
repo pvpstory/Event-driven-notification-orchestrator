@@ -59,9 +59,7 @@ export const preferencesControllerFactory = (app: Express) => {
 
 		const userId: string = req.params.userId;
 		const requestData = req.body;
-		
-		
-		//the preference can still be invalid if dnd or eventSettings is not correct structure
+				
 		const preference: UserPreferences = {
 			dnd: requestData.dnd,
 			eventSettings: requestData.eventSettings
